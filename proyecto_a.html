@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TechStore</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles1_a.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>TechStore</h1>
+    <button id="btn-menu" class="menu-btn">
+    <i class="fas fa-bars"></i>
+    </button>
+    
+    <nav>
+      <ul>
+        <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#productos"><i class="fas fa-shopping-cart"></i> Productos</a></li>
+        <li><a href="#ofertas"><i class="fas fa-percent"></i> Ofertas</a></li>
+        <li><a href="#comparativa"><i class="fas fa-chart-bar"></i> Comparativa</a></li>
+        <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Cuerpo -->
+  <main>
+  <section id="inicio">
+    <h2>Bienvenido a TechStore</h2>
+    <img src="img/imagen08.jpg" alt="Banner tecnológico" width="600">
+    <p>Innovación en tecnología a tu alcance.</p>
+    <a href="https://www.lipsum.com/feed/html" target="_blank">Referencia</a>
+
+  </section>
+
+  <section id="productos">
+    <h2>Productos</h2>
+    <article>
+      <img src="img/imagen02.jpg" alt="Laptop Gamer " width="200">
+      <div class="producto-iconos">
+        <i class="fas fa-laptop"></i>
+      </div>
+      <h3>Asus ROG Strix</h3>
+      <p>Precio: $1200</p>
+      <a href="#" class="ver-mas" data-producto="asus-rog">Ver más</a>
+    </article>
+
+    <article>
+      <img src="img/imagen03.jpg" alt="Smartphone X" width="200">
+      <div class="producto-iconos">
+        <i class="fas fa-mobile-alt"></i>
+      </div>
+      <h3>Samsung galaxy s24 </h3>
+      <p>Precio: $900</p>
+      <a href="#" class="ver-mas" data-producto="samsung-s24">Ver más</a>
+    </article>
+
+    <article>
+      <img src="img/imagen04.jpg" alt="Audífonos Pro" width="200">
+      <div class="producto-iconos">
+        <i class="fas fa-headphones"></i>
+      </div>
+      <h3>Galaxy Buds FE</h3>
+      <p>Precio: $150</p>
+      <a href="#" class="ver-mas" data-producto="galaxy-buds">Ver más</a>
+    </article> 
+
+    <article>
+      <img src="img/imagen05.webp" alt="Tablet" width="200">
+      <div class="producto-iconos">
+        <i class="fas fa-tablet-alt"></i>
+      </div>
+      <h3> Tablet Samsung Galaxi</h3>
+      <p>Precio: $150</p>
+      <a href="#" class="ver-mas" data-producto="tablet-samsung">Ver más</a>
+    </article>
+
+    <article>
+      <img src="img/imagen06.webp" alt="Teclado" width="200">
+      <div class="producto-iconos">
+        <i class="fas fa-keyboard"></i>
+      </div>
+      <h3>Teclado Gamer Microics Fisher K801</h3>
+      <p>Precio: $150</p>
+      <a href="#" class="ver-mas" data-producto="teclado-gamer">Ver más</a>
+    </article>
+
+    <article>
+      <img src="img/imagen07.webp" alt="Mouse" width="200">
+      <div class="producto-iconos">
+        <i class="fas fa-mouse"></i>
+      </div>
+      <h3>MOUSE LOGITECH G502</h3>
+      <p>Precio: $150</p>
+      <a href="#" class="ver-mas" data-producto="mouse-logitech">Ver más</a>
+    </article>
+
+  </section>
+
+  <section id="ofertas">
+    <h2>Ofertas</h2>
+    <p>Aprovecha un 20% de descuento en tablets</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5aGaMmyqwxA?si=X892l4EAqQwZEb1P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  </section>
+
+  <section id="comparativa">
+    <h2>Comparativa de Productos</h2>
+    
+    <!-- Tabla 1 -->
+    <h3>Laptops</h3>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>RAM</th>
+          <th>Almacenamiento</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Asus ROG Strix</td>
+          <td>16 GB</td>
+          <td>512 GB SSD</td>
+          <td>$1200</td>
+        </tr>
+        <tr>
+          <td>MSI Raider GE</td>
+          <td>8 GB</td>
+          <td>256 GB SSD</td>
+          <td>$900</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Tabla 2 -->
+    <h3>Accesorios</h3>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Accesorio</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Teclado Gamer</td>
+          <td>$40</td>
+        </tr>
+        <tr>
+          <td>Mouse Gamer</td>
+          <td>$25</td>
+        </tr>
+        <tr>
+          <td>Audifonos Gamer</td>
+          <td>$180</td>
+        </tr>
+        <tr>
+          <td>Cargador Portatil</td>
+          <td>$100</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <button onclick="mostrarProductos()">Mostrar productos</button>
+  <div id="listaProductos" style="margin-top:10px;"></div>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    
+    <form action="portal.html" id="contactForm">
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" placeholder="Escribe tu nombre" name="nombre" id="nombre">
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" placeholder="ejemplo@correo.com" name="email" id="email">
+
+      <label for="producto">Producto de Interés:</label>
+      <input type="text" placeholder="Escribe un producto" name="producto" id="producto">
+
+      <!--  ONCHANGE -->
+      <label for="tipo-consulta">Tipo de Consulta:</label>
+      <select name="tipo-consulta" id="tipo-consulta" onchange="actualizarConsulta()">
+        <option value="ninguna">-- Elige una opción --</option>
+        <option value="Ventas">Ventas</option>
+        <option value="Soporte Técnico">Soporte Técnico</option>
+        <option value="Información General">Información General</option>
+      </select>
+      <p style="text-align: center; margin-top: 0;">Has seleccionado: <strong id="opcion-seleccionada">ninguna</strong></p>
+      
+      <button type="button" onclick="mostrarAlerta()">Haz Clic Aquí</button>
+    </form>
+    
+  </section>
+  </main>
+  
+  <!-- VENTANA FLOTANTE / MODAL -->
+  <div id="modal" class="modal">
+    <div class="modal-contenido">
+      <span id="cerrarModal" class="cerrar">&times;</span>
+      <h2>¡Bienvenido a TechStore!</h2>
+      <p>Recuerda que tenemos los mejores productos y ofertas para ti, te estaremos esperando.</p>
+    </div>
+  </div>
+
+  <!-- MODAL DE DESCRIPCIÓN DE PRODUCTO -->
+  <div id="modalProducto" class="modal">
+    <div class="modal-contenido">
+      <span id="cerrarModalProducto" class="cerrar">&times;</span>
+      <div id="contenidoProducto"></div>
+    </div>
+  </div>
+
+  <!-- BOTÓN PARA ABRIR EL MODAL -->
+  <button id="btnModal" class="btn-modal">Vuelve pronto</button>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 TechStore </p>
+    <nav>
+      <a href="#">Privacidad</a> |
+      <a href="#">Términos</a> |
+      <a href="#">Redes Sociales</a>
+    </nav>
+    <div class="redes-sociales">
+      <a href="https://wa.me/1234567890" target="_blank" class="social-icon whatsapp" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.facebook.com" target="_blank" class="social-icon facebook" title="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank" class="social-icon instagram" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
